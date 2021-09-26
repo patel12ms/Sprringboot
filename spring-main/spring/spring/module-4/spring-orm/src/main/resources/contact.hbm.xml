@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping>
+ 
+ <class name="co.edureka.hibernate.entity.Contact" table="CONTACT_MASTER">
+ 	<id name="contactId" column="CONTACT_ID">
+ 		<generator class="assigned"/>
+ 	</id>
+ 	<property name="contactName" column="CONTACT_NAME"/>
+ 	<property name="contactEmail" column="CONTACT_EMAIL"/>
+ </class>
+</hibernate-mapping>
